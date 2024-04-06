@@ -1,12 +1,14 @@
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 
-import HomeBackground from "../assets/images/sajek";
+// import backgorund from '../assets/images/Rectangle 1.png'
+// import logoNav from '../assets/images/logo.png'
+
+
 
 export const Home = () => {
   return (
-    <div className="bg-[url('../assets/images/rectangle1.png')]">
-        <img src={HomeBackground} alt="" />
+    <div  style={{backgroundImage: "url('../assets/images/Rectangle 1.png')"}} className="bg-[url('../assets/images/Rectangle 1.png')]">
         {/* NavBar conponent */}
         <Navbar />
         {/* hero component */}
